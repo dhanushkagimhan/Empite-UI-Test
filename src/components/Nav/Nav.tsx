@@ -29,8 +29,8 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="container mx-auto mb-10">
-        <div className="flex justify-between pt-[22px] mx-2">
+      <div className="container mx-auto px-2 mb-10">
+        <div className="flex justify-between pt-[22px] ">
           <div>
             <a href="#">
               <img src={Logo} alt="Empite Logo" />
@@ -49,7 +49,7 @@ export default function Nav() {
           )}
         </div>
         {isOpenNav && windowWidth <= 1024 ? (
-          <div className="mx-2 mt-4 flex flex-col text-center gap-5 text-xl">
+          <div className="mt-4 flex flex-col text-center gap-5 text-xl">
             {getNavContent()}
           </div>
         ) : (
