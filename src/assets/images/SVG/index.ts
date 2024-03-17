@@ -5,6 +5,7 @@ import computerSVG from "./computer.svg";
 import bracketSVG from "./bracket.svg";
 import mobilePhoneSVG from "./mobilePhone.svg";
 import uxDesignSVG from "./ux-design.svg";
+import playBtn2 from "./playBtn2.svg";
 
 export {
   Logo,
@@ -14,4 +15,5 @@ export {
   bracketSVG,
   mobilePhoneSVG,
   uxDesignSVG,
+  playBtn2,
 };
