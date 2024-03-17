@@ -7,6 +7,7 @@ import mobilePhoneSVG from "./mobilePhone.svg";
 import uxDesignSVG from "./ux-design.svg";
 import playBtn2 from "./playBtn2.svg";
 import Dots9 from "./9Dots.svg";
+import rightArrow from "./rightArrow.svg";
 
 export {
   Logo,
@@ -18,4 +19,5 @@ export {
   uxDesignSVG,
   playBtn2,
   Dots9,
+  rightArrow,
 };

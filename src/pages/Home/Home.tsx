@@ -6,6 +6,7 @@ import {
   Section4,
   Section5,
   Section6,
+  Section7,
 } from "./sections";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Section4 />
       <Section5 />
       <Section6 />
+      <Section7 />
       <Footer />
     </>
   );
