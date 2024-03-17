@@ -6,6 +6,7 @@ export default {
       colors: {
         "title-grey": "#717171",
         "box-grey": "#1F1E22",
+        "box-grey2": "#DEDEDE",
       },
       fontFamily: {
         playfair: ["Playfair_Display_Bold"],
