@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Logo } from "../../assets/images/SVG";
 import { TbMenu2 } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Nav() {
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
@@ -29,11 +31,11 @@ export default function Nav() {
 
   return (
     <nav>
-      <div className="container mx-auto px-2 mb-10">
+      <div className="container mx-auto px-10 mb-10">
         <div className="flex justify-between pt-[22px] ">
           <div>
             <a href="#">
-              <img src={Logo} alt="Empite Logo" />
+              <LazyLoadImage src={Logo} effect="blur" alt="Empite Logo" />
             </a>
           </div>
           {windowWidth > 1024 ? (

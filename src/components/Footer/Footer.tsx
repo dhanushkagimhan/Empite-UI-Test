@@ -1,4 +1,6 @@
 import { LogoWhite } from "../../assets/images/SVG";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Footer() {
   return (
@@ -8,7 +10,11 @@ export default function Footer() {
           <div className="grid 2xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
             <div>
               <a href="#">
-                <img src={LogoWhite} alt="Empite Logo" />
+                <LazyLoadImage
+                  src={LogoWhite}
+                  effect="blur"
+                  alt="Empite Logo"
+                />
               </a>
             </div>
             <div>
