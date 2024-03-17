@@ -9,6 +9,7 @@ export default {
         "box-grey2": "#DEDEDE",
         "box-grey3": "#2C2C2C",
         "box-grey4": "#EDEDED",
+        "box-grey5": "#F0F0F0",
         "box-red": "#CE0000",
       },
       fontFamily: {
