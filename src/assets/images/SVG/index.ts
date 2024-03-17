@@ -6,6 +6,7 @@ import bracketSVG from "./bracket.svg";
 import mobilePhoneSVG from "./mobilePhone.svg";
 import uxDesignSVG from "./ux-design.svg";
 import playBtn2 from "./playBtn2.svg";
+import Dots9 from "./9Dots.svg";
 
 export {
   Logo,
@@ -16,4 +17,5 @@ export {
   mobilePhoneSVG,
   uxDesignSVG,
   playBtn2,
+  Dots9,
 };
