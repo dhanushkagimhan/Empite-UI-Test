@@ -7,6 +7,7 @@ import {
   Section5,
   Section6,
   Section7,
+  Section8,
 } from "./sections";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Section5 />
       <Section6 />
       <Section7 />
+      <Section8 />
       <Footer />
     </>
   );

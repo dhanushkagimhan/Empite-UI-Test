@@ -86,6 +86,7 @@ export default function Section7() {
                 <button
                   onClick={() => setTestImonialIndex(testImonialIndex - 1)}
                   disabled={testImonialIndex === 0}
+                  className={testImonialIndex === 0 ? "opacity-20" : ""}
                 >
                   <LazyLoadImage
                     src={rightArrow}
@@ -99,6 +100,7 @@ export default function Section7() {
                 <button
                   onClick={() => setTestImonialIndex(testImonialIndex + 1)}
                   disabled={testImonialIndex === 2}
+                  className={testImonialIndex === 2 ? "opacity-20" : ""}
                 >
                   <LazyLoadImage
                     src={rightArrow}
