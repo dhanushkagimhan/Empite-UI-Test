@@ -4,7 +4,7 @@ import {
   section5_image1,
   section5_image2,
   section5_image3,
-} from "../../../assets/images/PNG";
+} from "../../../assets/images/ContentImages";
 import { playBtn2 } from "../../../assets/images/SVG";
 
 export default function Section5() {

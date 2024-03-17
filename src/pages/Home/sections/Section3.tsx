@@ -1,6 +1,9 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { section3_image1, section3_image2 } from "../../../assets/images/PNG";
+import {
+  section3_image1,
+  section3_image2,
+} from "../../../assets/images/ContentImages";
 import { HiOutlineArrowRight } from "react-icons/hi2";
 
 export default function Section3() {

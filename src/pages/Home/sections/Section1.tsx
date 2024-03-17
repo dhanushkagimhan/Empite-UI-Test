@@ -1,6 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import { section1_image } from "../../../assets/images/PNG";
+import { section1_image } from "../../../assets/images/ContentImages";
 import { playBtn1 } from "../../../assets/images/SVG";
 
 export default function Section1() {
