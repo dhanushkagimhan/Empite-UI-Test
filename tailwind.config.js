@@ -7,6 +7,9 @@ export default {
         "title-grey": "#717171",
         "box-grey": "#1F1E22",
         "box-grey2": "#DEDEDE",
+        "box-grey3": "#2C2C2C",
+        "box-grey4": "#EDEDED",
+        "box-red": "#CE0000",
       },
       fontFamily: {
         playfair: ["Playfair_Display_Bold"],
